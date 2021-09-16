@@ -18,8 +18,8 @@
                 <h1 id="page-title">Qualifying Exam</h1>
                 <h3 id="user-greeting">Hello there, {{ user.name }} here.</h3>
                 <p id="user-git">My github handle is {{ user.github }}.</p>
-                <p id="user-repo">Link to this repo is here: {{ user.repo }}! </p>
-                <p id="user-app">Wanna see it live? Check it out on Heroku here! {{ user.app }}</p>
+                <p id="user-repo">Link to this repo is <a href="{{user.repo}}"  target="_blank"> here!</a> </p>
+                <p id="user-app">Wanna see it live? Check it out on Heroku <a href="{{user.app}}"  target="_blank"> here!</a> </p>
                 <p id="user-skill">A fine list of skills that I have: {{ user.skills }}? Nice eh?.</p>
             </div>
         </div>

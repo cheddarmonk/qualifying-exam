@@ -1,7 +1,8 @@
 {
     "name": "Thomas Barnett",
     "github": "Cheddarmonk",
-    "repo": "",
-    "app": "",
-    "skills": ["1","2","3"]
+    "repo": "https://github.com/cheddarmonk/qualifying-exam",
+    "app": "https://qualifying-exam.herokuapp.com/",
+    "skills" : ["Created Node servers with angular & express modules.", "Using CLI to intergrage github repository commands. ", "Designed visual and textual instrustions with markdown language. "]
+    
 }
